@@ -1,6 +1,7 @@
 import React from 'react';
-import Nav from '../Navigation';
+import Navigation from '../Navigation';
 import profilePhoto from '../../assets/raposa-millar.jpeg';
+// import Footer from '../Footer';
 
 function Header() {
 
@@ -13,8 +14,9 @@ function Header() {
           </span>
         </a>
       </h1>
-      {Nav}
+      {Navigation}
     </header>
+    // {Footer}
   )
 }
 
