@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+import ContactForm from './pages/Contact';
 
 export default function Navigation() {
   const [currentPage, setCurrentPage] = useState('About');
