@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import ContactForm from './pages/Contact';
+import About from '../pages/About';
+import Portfolio from '../pages/Portfolio';
+import Resume from '../pages/Resume';
+import ContactForm from '../pages/Contact';
 
 export default function Navigation() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -22,7 +22,7 @@ export default function Navigation() {
       return <Resume />;
     }
     // Renders the Contact component if no other page is selected.
-    return <Contact />;
+    return <ContactForm />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
