@@ -1,5 +1,6 @@
 import React from 'react';
 import profilePhoto from '../../assets/raposa-millar.jpeg';
+import Footer from '../Footer';
 
 export default function Navigation({setCurrentPage}) {
   
@@ -13,9 +14,11 @@ export default function Navigation({setCurrentPage}) {
       <div>
         <button onClick = {() => setCurrentPage('about') }>About Me</button>
         <button onClick = {() => setCurrentPage('portfolio') }>Portfolio</button>
-        <button onClick = {() => setCurrentPage('contact') }>Contacts</button>
+        <button onClick = {() => setCurrentPage('contact') }>Contact</button>
         <button onClick = {() => setCurrentPage('resume') }>Resume</button>
       </div>
+      { Footer }
     </nav>
+    
   );
 }; 
