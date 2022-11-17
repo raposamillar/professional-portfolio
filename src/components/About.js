@@ -1,9 +1,10 @@
 import React from 'react';
-// import Footer from './component/Footer';
+// import Footer from './components/Footer';
 import profilePhoto from '../assets/raposa-millar.jpeg';
 import githubIcon from '../assets/icons/github.png';
 import linkedinIcon from '../assets/icons/linkedin.png';
 import twitterIcon from '../assets/icons/twitter.png';
+// import Project from '../components/Project';
 
 export default function About() {
   return (
@@ -29,7 +30,8 @@ export default function About() {
           <img src={twitterIcon} style={{ width: '25%' }} alt='Twitter icon'/></a>
         </span>
     </footer>
-      {/* {(Footer)} */}
+    {/* { Project } */}
+      {/* {Footer} */}
     </div>
   );
 }
