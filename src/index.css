@@ -65,19 +65,23 @@ nav button {
   font-size: 20px;
 }
 
-.about {
+nav a {
+  color: #C05746;
+}
+
+nav button:hover {
+  color: #C05746;
+}
+
+.active {
   margin: 0 40px;
 }
 
-.resume {
-  margin: 0 40px;
-}
+/* .active a:active {
+  color: #C05746;
+} */
 
-.contact {
-  margin: 0 40px;
-}
-
-footer .icons {
+footer {
   display: flex;
   text-align: center;
   padding-bottom: 15px;

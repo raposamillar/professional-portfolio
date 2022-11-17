@@ -1,13 +1,14 @@
 import React from 'react';
-import profilePhoto from '../../assets/raposa-millar.jpeg';
+// import profilePhoto from '../../assets/raposa-millar.jpeg';
+import musiCode from '../../assets/music-code.png';
 
 export default function Navigation({setCurrentPage}) {
   
   return (
     <nav>
       <h1>Lisa Raposa Millar</h1>
-      <span role='img' aria-label='profile photo'>
-            <img src={profilePhoto} style={{ width: '40%' }} alt='Lisa Raposa Millar in High Park in Toronto.'/>
+      <span role='img' aria-label='logo-photo'>
+            <img src={musiCode} style={{ width: '40%' }} alt='.'/>
       </span>
       
       <div>
