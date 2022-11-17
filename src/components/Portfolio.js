@@ -13,9 +13,9 @@ import twitterIcon from '../assets/icons/twitter.png';
 export default function Portfolio() {
   return (
     <section id="work" className="projects">
-      <h3 className="flex-row">
+      <h2 className="flex-row">
         Projects
-      </h3>
+      </h2>
     <div className="columns">   
       <div className="column">
         <div className="project-1">

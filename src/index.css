@@ -76,6 +76,69 @@ nav button:hover {
 .active {
   margin: 0 40px;
 }
+/* 
+.columns img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+} */
+
+.columns {
+    font-family: var(--primary-font);
+    color: #fff;
+    font-weight: bolder;
+    justify-content: space-between;  
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 0;
+    padding: 25px;
+    margin: 25px;
+    border: 10px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+}
+
+.project-1 img {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 0;
+  width: 50%;
+}
+
+.chore-buddy img {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 0;
+  width: 50%;
+}
+
+.notables img {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 0;
+  width: 50%;
+}
+
+.run-buddy img {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 0;
+  width: 50%;
+}
+
+.thtb img {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 0;
+  width: 50%;
+}
+
+.weather-watcher img {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 0;
+  width: 50%;
+}
 
 /* .active a:active {
   color: #C05746;
@@ -88,4 +151,3 @@ footer {
   width: 100%;
   justify-content: center;
 }
-
