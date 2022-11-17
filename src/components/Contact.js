@@ -63,15 +63,18 @@ function ContactForm() {
         <button type='submit'>Submit</button>
       </form>
 
-      <footer id='connect' className='icons'>
+      <footer id='contact-connect' className='icons'>
         <span role='img' aria-label='github'>
-          <img src={githubIcon} style={{ width: '25%' }} alt='GitHub icon'/>
+          <a href="https://github.com/raposamillar" target="_blank" rel="noreferrer">
+          <img src={githubIcon} style={{ width: '25%' }} alt='GitHub icon' /></a>
         </span>
         <span role='img' aria-label='linkedin'>
-          <img src={linkedinIcon} style={{ width: '25%' }} alt='LinkedIn icon'/>
+          <a href="https://ca.linkedin.com/in/lisaraposamillar" target="_blank" rel="noreferrer">
+          <img src={linkedinIcon} style={{ width: '25%' }} alt='LinkedIn icon'/></a>
         </span>
         <span role='img' aria-label='twitter'>
-          <img src={twitterIcon} style={{ width: '25%' }} alt='Twitter icon'/>
+          <a href="https://twitter.com/raposamillar" target="_blank" rel="noreferrer">
+          <img src={twitterIcon} style={{ width: '25%' }} alt='Twitter icon'/></a>
         </span>
     </footer>
     </section>
