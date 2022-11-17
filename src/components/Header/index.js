@@ -1,3 +1,4 @@
+// I left this code because my original idea was to bring the Navigation component into the header.  I might return to it.
 import React from 'react';
 import Navigation from '../Navigation';
 import profilePhoto from '../../assets/raposa-millar.jpeg';

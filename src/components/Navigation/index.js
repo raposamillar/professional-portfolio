@@ -1,6 +1,5 @@
 import React from 'react';
 import profilePhoto from '../../assets/raposa-millar.jpeg';
-import Footer from '../Footer';
 
 export default function Navigation({setCurrentPage}) {
   
@@ -8,7 +7,7 @@ export default function Navigation({setCurrentPage}) {
     <nav>
       <h1>Lisa Raposa Millar</h1>
       <span role='img' aria-label='profile photo'>
-            <img src={profilePhoto} style={{ width: '25%' }} alt='Lisa Raposa Millar in High Park in Toronto.'/>
+            <img src={profilePhoto} style={{ width: '40%' }} alt='Lisa Raposa Millar in High Park in Toronto.'/>
       </span>
       
       <div>
@@ -17,8 +16,6 @@ export default function Navigation({setCurrentPage}) {
         <button onClick = {() => setCurrentPage('contact') }>Contact</button>
         <button onClick = {() => setCurrentPage('resume') }>Resume</button>
       </div>
-      { Footer }
     </nav>
-    
   );
 }; 

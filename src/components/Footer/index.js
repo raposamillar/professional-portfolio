@@ -1,9 +1,9 @@
 import React from 'react';
-import githubIcon from '../../assets/icons/github.png';
-import linkedinIcon from '../../assets/icons/linkedin.png';
-import twitterIcon from '../../assets/icons/twitter.png';
+import githubIcon from '../assets/icons/github.png';
+import linkedinIcon from '../assets/icons/linkedin.png';
+import twitterIcon from '../assets/icons/twitter.png';
 
-function Footer() {
+export default function Footer() {
   return (
     <footer id='connect' className='icons'>
         <span role='img' aria-label='github'>
@@ -16,7 +16,5 @@ function Footer() {
           <img src={twitterIcon} style={{ width: '25%' }} alt='Twitter icon'/>
         </span>
     </footer>
-  )
-}
-
-export default Footer;
+  );
+};

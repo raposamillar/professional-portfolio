@@ -3,6 +3,7 @@ import Navigation from './components/Navigation';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+// import Footer from './components/Footer';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('about');
@@ -17,6 +18,7 @@ const App = () => {
           ? <Contact />
           : <Resume />
       }
+      {/* {Footer} */}
     </>
   )
 }

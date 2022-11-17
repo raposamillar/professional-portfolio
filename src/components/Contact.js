@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 // import { validateEmail } from '../../utils/helpers';
+import githubIcon from '../assets/icons/github.png';
+import linkedinIcon from '../assets/icons/linkedin.png';
+import twitterIcon from '../assets/icons/twitter.png';
+
 
 export function validateEmail(email) {
   var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -58,7 +62,20 @@ function ContactForm() {
         </div>
         <button type='submit'>Submit</button>
       </form>
+
+      <footer id='connect' className='icons'>
+        <span role='img' aria-label='github'>
+          <img src={githubIcon} style={{ width: '25%' }} alt='GitHub icon'/>
+        </span>
+        <span role='img' aria-label='linkedin'>
+          <img src={linkedinIcon} style={{ width: '25%' }} alt='LinkedIn icon'/>
+        </span>
+        <span role='img' aria-label='twitter'>
+          <img src={twitterIcon} style={{ width: '25%' }} alt='Twitter icon'/>
+        </span>
+    </footer>
     </section>
+    
   );
 }
 
