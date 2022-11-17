@@ -1,36 +1,21 @@
-import React, { useState } from 'react';
-import About from '../pages/About';
-import Portfolio from '../pages/Portfolio';
-import Resume from '../pages/Resume';
-import ContactForm from '../pages/Contact';
+import React from 'react';
+import profilePhoto from '../../assets/raposa-millar.jpeg';
 
-export default function Navigation() {
-  const [currentPage, setCurrentPage] = useState('About');
-
-  // Conditionally checks for the value of "currentPage" and renders the selected component, accordingly.  
-  const renderPage = () => {
-    if (currentPage === '/') {
-      return <About />;
-    }
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Portfolio')  {
-      return <Portfolio />;
-    }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
-    // Renders the Contact component if no other page is selected.
-    return <ContactForm />;
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page);
-
+export default function Navigation({setCurrentPage}) {
+  
   return (
-    <div>
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
-      {renderPage()}
-    </div>
+    <nav>
+      <h1>Lisa Raposa Millar</h1>
+      <span role='img' aria-label='profile photo'>
+            <img src={profilePhoto} style={{ width: '25%' }} alt='Lisa Raposa Millar in High Park in Toronto.'/>
+      </span>
+      
+      <div>
+        <button onClick = {() => setCurrentPage('about') }>About Me</button>
+        <button onClick = {() => setCurrentPage('portfolio') }>Portfolio</button>
+        <button onClick = {() => setCurrentPage('contact') }>Contacts</button>
+        <button onClick = {() => setCurrentPage('resume') }>Resume</button>
+      </div>
+    </nav>
   );
 }; 

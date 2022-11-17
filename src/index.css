@@ -35,3 +35,17 @@ header, h1 {
   margin: 10px;
   border: 10px;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+nav button {
+  background: transparent;
+  border: none;
+  margin: 0 10px;
+}

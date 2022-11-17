@@ -1,7 +1,6 @@
 import React from 'react';
 import Navigation from '../Navigation';
 import profilePhoto from '../../assets/raposa-millar.jpeg';
-// import Footer from '../Footer';
 
 function Header() {
 
@@ -16,7 +15,7 @@ function Header() {
       </h1>
       {Navigation}
     </header>
-    // {Footer}
+    
   )
 }
 
