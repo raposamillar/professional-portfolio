@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/professional-portfolio/static/css/main.9218221c.css",
+    "main.js": "/professional-portfolio/static/js/main.ece8f8cb.js",
+    "static/js/787.10c1ab8b.chunk.js": "/professional-portfolio/static/js/787.10c1ab8b.chunk.js",
+    "static/media/a-night-in.jpg": "/professional-portfolio/static/media/a-night-in.bb06c0ff3a12b60538f0.jpg",
+    "static/media/run-buddy.jpg": "/professional-portfolio/static/media/run-buddy.8bdd632cff5e89fcadd8.jpg",
+    "static/media/weather-watcher.jpg": "/professional-portfolio/static/media/weather-watcher.609d846c11eb7fbdc7e0.jpg",
+    "static/media/chore-buddy.jpg": "/professional-portfolio/static/media/chore-buddy.b3556deb4953c62d8ed4.jpg",
+    "static/media/raposa-millar.jpeg": "/professional-portfolio/static/media/raposa-millar.598f138bece933a64200.jpeg",
+    "static/media/notables.jpg": "/professional-portfolio/static/media/notables.383e62ea1626e4d82619.jpg",
+    "static/media/thought-huddle-tech-blog.jpg": "/professional-portfolio/static/media/thought-huddle-tech-blog.dd48d22ed43fcdaefb46.jpg",
+    "index.html": "/professional-portfolio/index.html",
+    "main.9218221c.css.map": "/professional-portfolio/static/css/main.9218221c.css.map",
+    "main.ece8f8cb.js.map": "/professional-portfolio/static/js/main.ece8f8cb.js.map",
+    "787.10c1ab8b.chunk.js.map": "/professional-portfolio/static/js/787.10c1ab8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9218221c.css",
+    "static/js/main.ece8f8cb.js"
+  ]
+}
