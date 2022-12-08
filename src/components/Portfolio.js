@@ -20,7 +20,7 @@ export default function Portfolio() {
     <div className="columns">   
       <div className="column">
         <div className="serfs-market">  
-        <a href="https://serf-market.herokuapp.com/" target="_blank" rel="noreferrer"> 
+        <a href="https://serfs-market.herokuapp.com/" target="_blank" rel="noreferrer"> 
         <img src={serfsMarket} alt="A medieval market and list of current fictional stocks available for purchase." />
         <figcaption>The Serf's Market: Collaborative MERN Stack Project</figcaption>
         </a>    
