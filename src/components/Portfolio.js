@@ -40,7 +40,7 @@ export default function Portfolio() {
 
       <div className="column">
         <div className="chore-buddy">  
-        <a href="https://chorebuddy.herokuapp.com/" target="_blank" rel="noreferrer"> 
+        <a href="https://still-hamlet-82669.herokuapp.com/" target="_blank" rel="noreferrer"> 
         <img src={chorebuddyPhoto} alt="Chores in need of help by volunteers." />
         <figcaption>ChoreBuddy: Back-end Collaborative Project</figcaption>
         </a>    
