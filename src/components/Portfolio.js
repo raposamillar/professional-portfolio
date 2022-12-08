@@ -5,6 +5,7 @@ import notablesPhoto from '../assets/projects/notables.jpg';
 import runbuddyPhoto from '../assets/projects/run-buddy.jpg';
 import thtbPhoto from '../assets/projects/thought-huddle-tech-blog.jpg';
 import wwPhoto from '../assets/projects/weather-watcher.jpg';
+import serfsMarket from '../assets/projects/serfs-market.jpg';
 
 import githubIcon from '../assets/icons/github.png';
 import linkedinIcon from '../assets/icons/linkedin.png';
@@ -17,6 +18,16 @@ export default function Portfolio() {
         Projects
       </h2>
     <div className="columns">   
+      <div className="column">
+        <div className="serfs-market">  
+        <a href="https://serf-market.herokuapp.com/" target="_blank" rel="noreferrer"> 
+        <img src={serfsMarket} alt="A medieval market and list of current fictional stocks available for purchase." />
+        <figcaption>The Serf's Market: Collaborative MERN Stack Project</figcaption>
+        </a>    
+        <a href="https://github.com/ShawnMaz/serfs-market" target="_blank" rel="noreferrer">Link to "The Serf's Market" on GitHub</a>
+        </div>
+      </div>
+
       <div className="column">
         <div className="project-1">
         <a href="https://raposamillar.github.io/A-Night-In" target="_blank" rel="noreferrer"> 

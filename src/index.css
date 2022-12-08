@@ -140,6 +140,13 @@ nav button:hover {
   width: 50%;
 }
 
+.serfs-market img {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 0;
+  width: 50%;
+}
+
 /* .active a:active {
   color: #C05746;
 } */
