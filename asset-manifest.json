@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/professional-portfolio/static/css/main.8117fcd6.css",
-    "main.js": "/professional-portfolio/static/js/main.497f65da.js",
+    "main.js": "/professional-portfolio/static/js/main.2430c886.js",
     "static/js/787.10c1ab8b.chunk.js": "/professional-portfolio/static/js/787.10c1ab8b.chunk.js",
     "static/media/a-night-in.jpg": "/professional-portfolio/static/media/a-night-in.bb06c0ff3a12b60538f0.jpg",
     "static/media/run-buddy.jpg": "/professional-portfolio/static/media/run-buddy.8bdd632cff5e89fcadd8.jpg",
@@ -13,11 +13,11 @@
     "static/media/thought-huddle-tech-blog.jpg": "/professional-portfolio/static/media/thought-huddle-tech-blog.dd48d22ed43fcdaefb46.jpg",
     "index.html": "/professional-portfolio/index.html",
     "main.8117fcd6.css.map": "/professional-portfolio/static/css/main.8117fcd6.css.map",
-    "main.497f65da.js.map": "/professional-portfolio/static/js/main.497f65da.js.map",
+    "main.2430c886.js.map": "/professional-portfolio/static/js/main.2430c886.js.map",
     "787.10c1ab8b.chunk.js.map": "/professional-portfolio/static/js/787.10c1ab8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8117fcd6.css",
-    "static/js/main.497f65da.js"
+    "static/js/main.2430c886.js"
   ]
 }
